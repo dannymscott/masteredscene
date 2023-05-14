@@ -202,7 +202,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _Glossiness: 0.5
     - _GreenHeight: 0
-    - _Height: 37.8
+    - _Height: 95
     - _Height2: 0.45
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -241,7 +241,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SandHeight: 1
-    - _Smoothness: 30.96
+    - _Smoothness: 76.3
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -257,7 +257,7 @@ Material:
     - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
-    - _StencilWriteMaskMV: 42
+    - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
     - _SubsurfaceScale: 1
     - _SupportDecals: 1
