@@ -1783,10 +1783,10 @@
     "m_Guid": {
         "m_GuidSerialized": "d20ec5cb-112d-41e3-b565-da21e05188fd"
     },
-    "m_Name": "Strength",
+    "m_Name": "TwirlStrength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Strength",
-    "m_DefaultReferenceName": "_Strength",
+    "m_RefNameGeneratedByDisplayName": "TwirlStrength",
+    "m_DefaultReferenceName": "_TwirlStrength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2251,7 +2251,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "d0b63194667b423fa76ef6c3612a7554",
     "m_Id": 0,
-    "m_DisplayName": "Strength",
+    "m_DisplayName": "TwirlStrength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
