@@ -124,7 +124,7 @@ Material:
     - _UseShadowThreshold: 0
     - _WindDensity: 0.6
     - _WindStrength: 0
-    - _Wind_Strength: 0.1
+    - _Wind_Strength: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4

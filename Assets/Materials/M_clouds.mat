@@ -114,7 +114,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _CloudSpeed: {r: 0.0025, g: 0.005, b: 0, a: 0}
+    - _CloudSpeed: {r: 0.005, g: 0.001, b: 0, a: 0}
     - _CloudsColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.27144888, g: 0.5637895, b: 0.9433962, a: 0}
     - _Color2: {r: 0.11035957, g: 0.31488353, b: 0.75471693, a: 0}
