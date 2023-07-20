@@ -67,7 +67,7 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
     - _CloudSize: 120
-    - _CloudsAlpha: 1.5
+    - _CloudsAlpha: 0.5
     - _CloudsPower: 0.57
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
@@ -80,6 +80,7 @@ Material:
     - _DstBlend: 10
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _Height: 0
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -87,6 +88,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
+    - _Smoothness: -0.51
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -108,14 +110,15 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _VertexOffset: -0.002
+    - _VertexOffset: 0
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
+    - _AlphaBlend: {r: 0, g: 0, b: 0, a: 0}
     - _CloudSpeed: {r: 0.005, g: 0.001, b: 0, a: 0}
-    - _CloudsColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CloudsColor: {r: 8, g: 8, b: 8, a: 1}
     - _Color1: {r: 0.27144888, g: 0.5637895, b: 0.9433962, a: 0}
     - _Color2: {r: 0.11035957, g: 0.31488353, b: 0.75471693, a: 0}
     - _DistortSpeed: {r: 0.005, g: 0.0025, b: 0, a: 0}

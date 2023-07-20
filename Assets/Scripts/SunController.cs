@@ -4,29 +4,26 @@ using UnityEngine;
 
 public class SunController : MonoBehaviour
 {
-
-    public float sunRotation;
+    [SerializeField] private List <Vector3> times = new List<Vector3>();
     
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
-        
+        SunControl();
     }
 
-    // Update is called once per frame
-    void Update()
+    void SunControl()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            transform.localRotation = Quaternion.Euler(50, 0, 0);     
+            transform.localRotation = Quaternion.Euler(times[0]);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            transform.localRotation = Quaternion.Euler(180, 0, 0);
+            transform.localRotation = Quaternion.Euler(times[1]);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            transform.localRotation = Quaternion.Euler(times[2]);
         }
     }
 }

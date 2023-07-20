@@ -8,7 +8,7 @@ public class TextureImportProcessor : AssetPostprocessor
     {
         var textureImporter = (TextureImporter)assetImporter;
         var preset = AssetDatabase.LoadAssetAtPath<Preset>("Assets/Textures/DefaultTextureImport.preset");
-
+        
         if (preset == null)
         {
             Debug.LogWarning("Preset not found.");
